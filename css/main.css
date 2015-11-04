@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Giftable Own CSS
+   ========================================================================== */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 0
+}
+
+p {
+    font-size: 1.8em;
+    line-height: 1.5em
+}
+
+#intro {
+    background-color: #51A7F9;
+    color: #fff;
+}
+
+.row-space {
+    margin-bottom: 100px;
+}
+
+.logo-area {
+    border-bottom: 1px solid #B6D9FD;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-hero {
+    max-width: 1000px;
+    padding: 90px 0;
+    margin: 0 auto
+}
+
+.main-hero h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin-top: 1em;
+    color: #fff;
+}
+
+.main-hero p {
+    font-size: 2em;
+}
+
+.btn-transparent {
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    border: 3px solid #fff;
+    padding: 15px 30px;
+    margin-top: 2em;
+}
+
+.btn-transparent:hover {
+    background-color: #fff;
+    color: #51A7F9
+}
+
+.sec-title {
+    text-align: center;
+    font-size: 3em;
+    margin: 2em 0;
+}
+
+#why {
+    background-color: #F3F5F7
+}
+
+.intro-bottom {
+    padding: 90px 0;
+}
+
+#why img,
+#how img {
+    width: 300px;
+    margin: 0 auto;
+}
+/* ==========================================================================
+   bellow 480 screen
+   ========================================================================== */
+
+@media only screen and (max-width: 479px) {
+    .row-space {
+        margin-bottom: 40px;
+    }
+    .main-hero {
+        padding: 90px 0px
+    }
+    .main-hero h1 {
+        font-size: 2em;
+    }
+    .main-hero p {
+        font-size: 1.5em;
+    }
+    .sec-title {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 1em;
+        line-height: 1.5em
+    }
+}
